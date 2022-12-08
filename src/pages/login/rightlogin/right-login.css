@@ -1,0 +1,29 @@
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+.login-form{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.login-form form input{
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    border: 2px solid lightskyblue;
+    width: max(500px, 50% )
+}
+.login-form form input:last-child{
+    margin-bottom: 1rem;
+}
+
+.login-form form label{
+    font-size: 1.4rem;
+
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+

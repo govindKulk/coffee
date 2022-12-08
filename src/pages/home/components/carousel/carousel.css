@@ -1,0 +1,11 @@
+.parent-carousel{
+    max-height: 400px;
+}
+
+.parent-carousel img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item{
+    height: 400px;
+}

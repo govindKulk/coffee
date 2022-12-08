@@ -1,0 +1,18 @@
+.footer-bottom{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.dt-sc-list-inline{
+    display: flex;
+}
+.icon--payment{
+    list-style: none;
+    
+}
+
+.footer-icons{
+    display: flex;
+    gap: 12px;
+}

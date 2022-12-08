@@ -1,0 +1,32 @@
+.signup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    gap: 10px;
+}
+.signup-input-container input{
+    text-align: left;
+    width: 500px;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}
+.signup-input-container input:last-child{
+    margin-bottom: 1rem;
+}
+
+.signup-btn{
+    display: block;
+    width: 500px;
+    background-color: rgb(226, 20, 192);
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+
+}
+
