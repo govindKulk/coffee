@@ -1,15 +1,24 @@
-.banner{
-    min-height: 100vh;
-    position: relative;
-    
+.banner {
+	min-height: 100vh;
+	position: relative;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: center;
 }
 .banner::after{
     content: "";
     position: absolute;
-    opacity: 0.8;
-    background-image: url('../../../common/assets/banner.jpg');
+    opacity: 0.4;
+    background-image: url('../../../common/assets/login-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     inset: 0;
+}
+
+.banner h1{
+    font-weight: 1000;
+    font-size: 3rem;
 }

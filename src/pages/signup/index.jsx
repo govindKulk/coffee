@@ -34,21 +34,22 @@ const SignUp = () => {
     return (
       <>
      <NavbarMain />
-      <div className="container mb-4">
+      <div className=" signup-container mb-4">
 
-      
+      <h1>Register Now</h1>
       <div className="signup-form" >
+       
       <form action="#" onSubmit={handleSubmit}>
           <div className="signup-input-container">
-          <label htmlFor="name">Email</label>
+          <label className="register-labels" htmlFor="name">Email</label>
           <input type="email" name="email" id="name" onChange={handleChange} value={formData.email}  />
           </div>
           <div className="signup-input-container">
-          <label htmlFor="pwd">Password</label>
+          <label className="register-labels" htmlFor="pwd">Password</label>
           <input type="password" name="password" id="pwd" onChange={handleChange} value={formData.password}/>
           </div>
           <div className="signup-input-container">
-          <label htmlFor="cpwd">Confirm Password</label>
+          <label className="register-labels" htmlFor="cpwd">Confirm Password</label>
           <input type="password" name="passwordConfirm" id="cpwd" onChange={handleChange} value={formData.passwordConfirm}/>
           </div>
           <div className="signup-input-container">

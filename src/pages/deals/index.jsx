@@ -6,7 +6,7 @@ import Footer from "../../common/components/footer/index.jsx";
 import NavbarMain from "../../common/components/navbar/index.jsx";
 // import jsonObj from "../../common/constants/data.js";
 import "./deals.css";
-// console.log(jsonObj);
+
 
 export default function Deals() {
   
@@ -27,11 +27,14 @@ export default function Deals() {
     />
   ));
 
+  
+
   // console.log(newArr)
   return (
     <>
       <NavbarMain />  
       <div className="container">
+     
         <div className="deals-section">{newArr}</div>
       </div>
       <Footer />

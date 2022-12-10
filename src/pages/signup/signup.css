@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
 }
 .signup-input-container{
     display: flex;
@@ -15,6 +16,7 @@
     width: 500px;
     padding: 0.5rem 1rem;
     font-size: 1.5rem;
+    background-color: lightcyan;
 }
 .signup-input-container input:last-child{
     margin-bottom: 1rem;
@@ -30,3 +32,26 @@
 
 }
 
+.signup-container{
+    position: relative;
+    isolation: isolate;
+
+
+}
+.signup-container::after{
+    background-image: url('../../common/assets/login-bg.jpg');
+    opacity: 0.4;
+    position: absolute;
+    inset: 0;
+    content: "";
+    z-index: -1  ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register-labels{
+    font-size: 1.5rem;
+    font-weight: 1000;
+
+}
